@@ -1,0 +1,48 @@
+html, body{
+
+    height: 100%;
+
+    width: 100%;
+
+    margin: 0;
+    background-color: 	#282c34;
+
+}
+
+.container{
+    
+height: 100%;
+width: 100%;
+
+display: grid;
+grid-template-columns:  60% 40% ;
+
+grid-template-areas: 
+"gauche droite";
+
+
+
+
+    
+  
+    
+    
+}
+.gauche{
+    grid-area: gauche;
+   
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.livreun{
+    
+}
+
+
+
